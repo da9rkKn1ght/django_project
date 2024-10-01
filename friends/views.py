@@ -3,10 +3,10 @@ from django.http import HttpResponse
 
 # Create your views here.
 def list_friends(request):
-    return HttpResponse('Ваши друзья')
+    return HttpResponse('Список ваших друзей')
 
 def list_best_friends(request):
-    return HttpResponse('Ваши лучшие друзья')
+    return HttpResponse('Список лучших друзей')
 
 def list_recommended_friends(request):
-    return HttpResponse('Ваши рекомендованные друзья')
+    return HttpResponse('Список рекомендованных друзей')
